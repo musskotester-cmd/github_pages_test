@@ -25,6 +25,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: RunScrypt
+        run: bash TestScript.sh 
+
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
