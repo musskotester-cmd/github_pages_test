@@ -25,6 +25,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: InstallDoxygen
+        run: sudo apt-get install -y doxygen
+
       - name: RunScrypt
         run: bash doc/TestScript.sh 
 
