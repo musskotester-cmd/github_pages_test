@@ -1,2 +1,2 @@
 echo "Test script run"
-doxygen doc/Doxyfile
+doxygen Doxyfile
