@@ -29,7 +29,7 @@ jobs:
         run: sudo apt-get install -y doxygen
 
       - name: RunScrypt
-        run: bash cd doc; TestScript.sh 
+        run: bash ls; cd doc; TestScript.sh 
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
