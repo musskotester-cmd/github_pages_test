@@ -28,6 +28,9 @@ jobs:
       - name: InstallDoxygen
         run: sudo apt-get install -y doxygen
 
+      - name: InstallPyYAML
+        run: pip install PyYAML
+
       - name: RunScrypt
         run: ls; cd doc; bash TestScript.sh 
 
